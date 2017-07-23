@@ -5,6 +5,9 @@ Source code for a Movie Trailer website project. This project is part of Full St
 
 The back-end for this website was developed in Python 2.7.13, serving with a index html file to display in the browser.
 
+# Notes
+Changed some styling to the original fresh_tomatoes.py file. 
+
 ## Installation
 *You would need to have Python in your computer so you can run and build the website.*
 1. Clone this repo to your computer
