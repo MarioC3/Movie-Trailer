@@ -2,7 +2,6 @@ import webbrowser
 import os
 import re
 
-
 # Styles and scripting for the page
 main_page_head = '''
 <!DOCTYPE html>
@@ -115,7 +114,6 @@ main_page_head = '''
     </script>
 </head>
 '''
-
 
 # The main page layout and title bar
 main_page_content = '''

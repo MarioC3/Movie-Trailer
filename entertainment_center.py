@@ -1,6 +1,8 @@
+# This file needs to be run, so the HTML can be generated for our website
 import fresh_tomatoes
 import media
 
+# Available movies
 toy_story1 = media.Movie('Toy Story 1',
                          'A story of a boy and his toys that come to life',
                          'http://www.impawards.com/1995/posters/toy_story_ver1_xlg.jpg',
@@ -34,4 +36,5 @@ spiderman_homecoming = media.Movie('Spiderman Homecoming',
 movies = [toy_story1, avatar, harry_potter1,
           avengers, transformers, spiderman_homecoming]
 
+# Executes the function to build our html
 fresh_tomatoes.open_movies_page(movies)
